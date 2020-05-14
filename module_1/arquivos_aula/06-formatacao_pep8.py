@@ -17,7 +17,7 @@ argumento = 'testando'
 sys.argv.append(argumento)
 
 print(sys.argv[1])
-#print(os.times())
+print(os.times())
 
 nome = 'Élysson MR'
 

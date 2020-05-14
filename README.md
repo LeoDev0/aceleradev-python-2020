@@ -1,6 +1,6 @@
 # AceleraDev Python 2020: Stone Payments Edition
 
-Repo created to store content and challenges throughout the AceleraDev Python backend course.
+Repo created to store content and challenges throughout the AceleraDev Python course.
 
 ![codenation](codenation.png)
 ![stone](stone.png)
@@ -18,4 +18,4 @@ Repo created to store content and challenges throughout the AceleraDev Python ba
 
 ### First module
 
-Python basics:
+Data Structures, Programming Logic, PEP8
