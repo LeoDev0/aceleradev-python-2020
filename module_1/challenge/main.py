@@ -53,5 +53,5 @@ def classify_by_phone_number(records):
                                'total': round(total_bill, 2)})
 
     # Ordering the list by total value
-    final_bill = sorted(final_bill, key=lambda x: x['total'], reverse=True)
+    final_bill = sorted(final_bill, key=lambda bill: bill['total'], reverse=True)
     return final_bill
