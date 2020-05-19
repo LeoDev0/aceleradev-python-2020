@@ -52,6 +52,7 @@ def classify_by_phone_number(records):
             final_bill.append({'source': record['source'],
                                'total': round(total_bill, 2)})
 
-    # Ordering the list by total value
+    # Ordering the list by total value and storing inside the same variable
+    # to overwrite the previous list and save memory.
     final_bill = sorted(final_bill, key=lambda bill: bill['total'], reverse=True)
     return final_bill
