@@ -18,4 +18,8 @@ Repo created to store content and challenges throughout the AceleraDev Python co
 
 ### First module
 
-Data Structures, Programming Logic, PEP8
+`Data Structures, Programming Logic, PEP8`
+
+### Second module
+
+`OOP: Inheritance, Composition, Class Methods, Static Methods, Instance Methods`
