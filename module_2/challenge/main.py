@@ -1,4 +1,4 @@
-import abc
+from abc import ABC, abstractmethod
 
 
 class Department:
@@ -7,25 +7,20 @@ class Department:
         self.code = code
 
 
-class Employee(abc.ABC):
-    def __init__(self, code, name, salary):
+class Employee(ABC):
+    def __init__(self, code, name, salary, departament):
         self.code = code
         self.name = name
         self.salary = salary
+        self.__departament = departament
 
-    @abc.abstractmethod
+    @abstractmethod
     def calc_bonus(self):
         pass
 
-    @abc.abstractmethod
-    def get_hours(self):
-        pass
-
-
-class Manager(Employee):
-    def __init__(self, code, name, salary):
-        super().__init__(code, name, salary)
-        self.__departament = Department('managers', 1)
+    @staticmethod
+    def get_hours():
+        return 8
 
     def get_departament(self):
         return self.__departament.name
@@ -33,21 +28,19 @@ class Manager(Employee):
     def set_department(self, new_department, code):
         self.__departament = Department(new_department, code)
 
+
+class Manager(Employee):
+    def __init__(self, code, name, salary):
+        super().__init__(code, name, salary, Department('managers', 1))
+
     def calc_bonus(self):
         return self.salary * 0.15
 
-    def get_hours(self):
-        return 8
 
-
-class Seller(Manager):
+class Seller(Employee):
     def __init__(self, code, name, salary):
-        super().__init__(code, name, salary)
-        self.__departament = Department('sellers', 2)
+        super().__init__(code, name, salary, Department('sellers', 1))
         self.__sales = 0
-    
-    def get_departament(self):
-        return self.__departament.name
 
     def get_sales(self):
         return self.__sales
