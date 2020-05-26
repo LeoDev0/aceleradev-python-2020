@@ -23,3 +23,7 @@ Repo created to store content and challenges throughout the AceleraDev Python co
 ### Second module
 
 `OOP: Inheritance, Composition, Class Methods, Static Methods, Instance Methods`
+
+### Third module
+
+`Unit tests, Mocks, Pytest, Monkeypatch`
