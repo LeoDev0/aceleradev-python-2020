@@ -7,3 +7,7 @@
 [Python Object Oriented Programming](https://www.programiz.com/python-programming/object-oriented-programming)
 
 [Object-Oriented Programming (OOP) in Python 3](https://realpython.com/python3-object-oriented-programming/)
+
+[Python Tutor (visualize python)](http://pythontutor.com/visualize.html#mode=edit)
+
+[Apostila Python e Orientação a objetos](https://www.caelum.com.br/apostila-python-orientacao-objetos/orientacao-a-objetos/)
