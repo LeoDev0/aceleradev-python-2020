@@ -26,4 +26,8 @@ Repo created to store content and challenges throughout the AceleraDev Python co
 
 ### Third module
 
-`Unit tests, Mocks, Pytest, Monkeypatch`
+`Unit tests, Mock, Pytest, Monkeypatch`
+
+### Fourth module
+
+`JWT (JSON Web Tokens), Socket, HTTP Protocol`
