@@ -31,3 +31,7 @@ Repo created to store content and challenges throughout the AceleraDev Python co
 ### Fourth module
 
 `JWT (JSON Web Tokens), Socket, HTTP Protocol`
+
+### Fifth module
+
+`Database Models, Django Models, Validations`
