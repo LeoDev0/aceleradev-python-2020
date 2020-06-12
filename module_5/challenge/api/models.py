@@ -1,12 +1,13 @@
 from django.db import models
 from django.core.validators import EmailValidator, MinLengthValidator
-from django.core.exceptions import ValidationError
 
 
-def levelValidator(level):
-  level = level.upper()
-  if level not in ['CRITICAL', 'DEBUG', 'ERROR', 'WARNING', 'INFO']:
-    raise ValidationError('Level must be CRITICAL, DEBUG, ERROR, WARNING or INFO')
+LEVEL_CHOICES = [
+    ('CRITICAL', 'CRITICAL'),
+    ('DEBUG', 'DEBUG'),
+    ('WARNING', 'WARNING'),
+    ('INFO', 'INFO'),
+]
 
 
 class User(models.Model):
@@ -14,11 +15,7 @@ class User(models.Model):
   last_login = models.DateTimeField(auto_now_add=True)
   email = models.EmailField(validators=[EmailValidator()])
   password = models.CharField(max_length=50,
-                              validators=[MinLengthValidator(
-                                8,
-                                "Password must be at least 8 characters long"
-                              )])
-
+                              validators=[MinLengthValidator(8)])
 
 class Agent(models.Model):
   name = models.CharField(max_length=50)
@@ -29,7 +26,7 @@ class Agent(models.Model):
 
 
 class Event(models.Model):
-  level = models.CharField(max_length=20, validators=[levelValidator])
+  level = models.CharField(max_length=20, choices=LEVEL_CHOICES)
   data = models.TextField()
   arquivado = models.BooleanField()
   date = models.DateField(auto_now_add=True)
