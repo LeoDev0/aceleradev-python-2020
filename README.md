@@ -35,3 +35,8 @@ Repo created to store content and challenges throughout the AceleraDev Python co
 ### Fifth module
 
 `Database Models, Django Models, Validations`
+
+### Sixth module
+
+`Django Rest Framework: Serialization, Requests and responses, Function based views, Viewsets and routers`
+
