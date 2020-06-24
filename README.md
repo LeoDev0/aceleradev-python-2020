@@ -40,3 +40,6 @@ Repo created to store content and challenges throughout the AceleraDev Python co
 
 `Django Rest Framework: Serialization, Requests and responses, Function based views, Viewsets and routers`
 
+### Seventh module
+
+`Django ORM: filtering, caching, raw SQL`
