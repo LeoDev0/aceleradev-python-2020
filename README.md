@@ -43,3 +43,7 @@ Repo created to store content and challenges throughout the AceleraDev Python co
 ### Seventh module
 
 `Django ORM: filtering, caching, raw SQL`
+
+### Eighth module
+
+`API Design, RAML 1.0, Swagger, Sphinx`

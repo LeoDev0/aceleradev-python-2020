@@ -1,0 +1,6 @@
+Documentação da ferramenta: https://github.com/twskj/pretty-swag
+
+Comando:
+pretty-swag -i swagger.yml -o swagger.html
+
+Na documentação da ferramenta contem as instruções para instalação da mesma.
