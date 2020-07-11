@@ -1,0 +1,16 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.2, pytest-3.6.2, py-1.5.3, pluggy-0.6.0 -- /home/kb37/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/kb37/codenation/python-13, inifile:
+collecting ... collected 7 items
+
+test_submit.py::test_1 PASSED                                            [ 14%]
+test_submit.py::test_2 PASSED                                            [ 28%]
+test_submit.py::test_3 PASSED                                            [ 42%]
+test_submit.py::test_4 PASSED                                            [ 57%]
+test_submit.py::test_5 PASSED                                            [ 71%]
+test_submit.py::test_6 PASSED                                            [ 85%]
+test_submit.py::test_7 PASSED                                            [100%]
+
+-------- generated xml file: /home/kb37/codenation/python-13/output.xml --------
+=========================== 7 passed in 0.16 seconds ===========================

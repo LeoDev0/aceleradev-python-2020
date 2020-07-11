@@ -16,34 +16,38 @@ Repo created to store content and challenges throughout the AceleraDev Python co
 
 ## Course Modules
 
-### First module
+### 1st module
 
 `Data Structures, Programming Logic, PEP8`
 
-### Second module
+### 2nd module
 
 `OOP: Inheritance, Composition, Class Methods, Static Methods, Instance Methods`
 
-### Third module
+### 3rd module
 
 `Unit tests, Mock, Pytest, Monkeypatch`
 
-### Fourth module
+### 4th module
 
 `JWT (JSON Web Tokens), Socket, HTTP Protocol`
 
-### Fifth module
+### 5th module
 
 `Database Models, Django Models, Validations`
 
-### Sixth module
+### 6th module
 
 `Django Rest Framework: Serialization, Requests and responses, Function based views, Viewsets and routers`
 
-### Seventh module
+### 7th module
 
 `Django ORM: filtering, caching, raw SQL`
 
-### Eighth module
+### 8th module
 
 `API Design, RAML 1.0, Swagger, Sphinx`
+
+### 9th module
+
+`Continous Integration, Continous Delivery, Travis CI`
