@@ -2,8 +2,10 @@
 
 Repo created to store content and challenges throughout the AceleraDev Python course.
 
-![codenation](codenation.png)
-![stone](stone.png)
+<div style="text-align:center">
+    <img src="codenation.png">
+    <img src="stone.png">
+</div>
 
 ## About Codenation
 
