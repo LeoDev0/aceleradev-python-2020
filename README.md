@@ -53,3 +53,7 @@ Repo created to store content and challenges throughout the AceleraDev Python co
 ### 9th module
 
 `Continous Integration, Continous Delivery, Travis CI`
+
+### 10th module
+
+[Final Project](https://github.com/LeoDev0/central-de-erros)
